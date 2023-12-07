@@ -1,0 +1,36 @@
+{
+  "locale": [
+    "en"
+  ],
+  "service": "FINANCE",
+  "whiteListedDomains": [],
+  "modules": {
+    "widgets": [
+      {
+        "location": "plugin.globalfields",
+        "widget_type":"modal",
+        "name": "Salesperson Commission",
+        "url": "/app/widget.html",
+        "logo": "/app/img/logo.png"
+      }
+    ]
+  },
+  "config": [],
+  "usedConnections": [
+    {
+      "connectionLinkName": "salesperson_commission_books",
+      "connectionName": "Zoho Books - Salesperson Commission",
+      "scope": [
+        "ZohoBooks.customerpayments.READ",
+        "ZohoBooks.custommodules.All",
+        "ZohoBooks.expenses.CREATE",
+        "ZohoBooks.expenses.READ",
+        "ZohoBooks.expenses.UPDATE",
+        "ZohoBooks.invoices.READ",
+        "ZohoBooks.settings.CREATE",
+        "ZohoBooks.settings.READ",
+        "ZohoBooks.settings.UPDATE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "globals": {
+        "ZFAPPS":true
+    },
+    "rules": {
+        "no-console":"warn",
+        "no-redeclare":"warn",
+        "no-unused-vars":"warn",
+        // "consistent-return":"error",
+        "no-undef":"warn",
+        "indent": [
+            "error",
+            2
+        ],
+        "eqeqeq": [
+            "error", "always" 
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-multiple-empty-lines":["error"]
+    }
+}
