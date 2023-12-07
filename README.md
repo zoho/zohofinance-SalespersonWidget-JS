@@ -1,4 +1,4 @@
-# Salesperson_React
+# Salesperson_JS
 
 ## Description
 
