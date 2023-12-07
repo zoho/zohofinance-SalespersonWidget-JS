@@ -1,4 +1,4 @@
-# Salesperson_JS
+# Salesperson-JS
 
 ## Description
 
