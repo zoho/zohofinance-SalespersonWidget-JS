@@ -14,11 +14,11 @@
 
 
 
-## Prerequesties:
+## Prerequisites:
 
 Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download and install them from [Node.js website](https://nodejs.org/).
-1. Create a Global Field in the developer portal and paste the field API name [here](https://github.com/Saravanaaa/Salesperson-React/blob/8c0aff06b1eb78b02b93f0c927ca2da7017cab04/src/App.js#L10)
-2. Create connections and paste the connnection_link_name [here](https://github.com/Saravanaaa/Salesperson-React/blob/8c0aff06b1eb78b02b93f0c927ca2da7017cab04/src/App.js#L8).
+1. Create a Global Field in the developer portal and paste the field API name [here](https://github.com/zoho/zohofinance-SalespersonWidget-JS/blob/d260b846fc9ab80d8540fd9c119fe7edc411b16d/Salesperson-settingWidget/app/js/extension.js#L65)
+2. Create connections and paste the connnection_link_name [here](https://github.com/zoho/zohofinance-SalespersonWidget-JS/blob/d260b846fc9ab80d8540fd9c119fe7edc411b16d/Salesperson-settingWidget/app/js/extension.js#L64) and also paste in [plugin-manifest.json](https://github.com/zoho/zohofinance-SalespersonWidget-JS/blob/d260b846fc9ab80d8540fd9c119fe7edc411b16d/Salesperson-settingWidget/plugin-manifest.json#L21) and ensure the scopes that you created in your developer portal
 
               
 ## Development Process of Salesperson React Widget:
